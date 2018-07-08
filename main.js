@@ -1,15 +1,6 @@
- /*  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyBtZzY8yyAy2gEKTquWhFDwMZeBGCYXBQU",
-    authDomain: "contactform-f82aa.firebaseapp.com",
-    databaseURL: "https://contactform-f82aa.firebaseio.com",
-    projectId: "contactform-f82aa",
-    storageBucket: "contactform-f82aa.appspot.com",
-    messagingSenderId: "254956803548"
-  }; */
+// Start Firebase
 
-  firebase.initializeApp(config);
-
+firebase.initializeApp(config);
 
 
 // Reference messages collection
