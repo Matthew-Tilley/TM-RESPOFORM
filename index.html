@@ -1,6 +1,7 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 
 <html>
+
 
 <head>
     
@@ -18,12 +19,15 @@
 
 </head>
 
+
 <body>
 
     <div class="container">
 
         <h1 class="brand">
+
             <span>Acme</span> Web Design
+
         </h1>
 
         <div class="wrapper animated bounceInLeft">
@@ -59,41 +63,57 @@
 
                 <h3>Email us.</h3>
 
-                <!-- @TODO VALIDATION -->
+                <div class="alert">Your message has been sent.</div>
+
                 <form id="contactForm">
+
                     <p>
+
                         <label>Name</label>
-                        <input type="text" name="name" id="name">
+
+                        <input type="text" name="name" id="name" required>
+
                     </p>
                 
                     <p>
+
                         <label>Company</label>
+
                         <input type="text" name="company" id="company">
+
                     </p>
 
                     <p>
+
                         <label>Email address</label>
-                        <input type="text" name="email" id="email">
+
+                        <input type="email" name="email" id="email" required>
+
                     </p>
 
                     <p>
+
                         <label>Phone number</label>
+
                         <input type="text" name="phone" id="phone">
+
                     </p>
 
                     <p class="full">
+
                         <label>Message</label>
+
                         <textarea name="message" rows="5" id="message"></textarea>
+
                     </p>
 
                     <p class="full">
-                        <button type="submit">Submit</button>
-                    </p>
 
+                        <button type="submit">Submit</button>
+
+                    </p>
 
                 </form>
-
-
 
             </div>
 
@@ -101,6 +121,7 @@
 
     </div>
 
+<script src="secure_api.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
 <script src="main.js"></script>
 
